@@ -1,0 +1,14 @@
+//normally hame agar koi html element create karna hai js mein toh hum 
+
+var h1 = document.createElement('h1')
+h1.innerHtml = 'Hello From JS'
+
+
+//----------IN JSX--------
+var h1 = <h1>Hello</h1>
+
+//using function
+function Abc() {
+    console.log('helloo from jsx function Abc')
+}
+<Abc />

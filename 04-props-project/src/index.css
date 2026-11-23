@@ -1,0 +1,163 @@
+/*
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background-color: black;
+}
+
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card{
+  width: 200px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  padding: 20px;
+  margin: 20px;
+  justify-content: space-between;
+  border: 1px solid rgb(110, 107, 107);
+  border-radius: 20px;
+}
+
+.top,
+.bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card button {
+  cursor: pointer;
+  background-color: brown;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 8px 15px;
+  color: white;
+}
+
+*/
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+  /* color: #fff; */
+}
+
+html, 
+body{
+  width: 100%;
+  height: 100%;
+}
+
+
+.parent {
+  min-height: 100vh;
+  width: 100%;
+  background-color: black;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card{
+  height: 310px;
+  width: 260px;
+  background-color: aliceblue;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.card .top{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px 0px 20px;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.top img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.top button{
+  padding: 0px 10px;
+  background-color: transparent;
+  font-size: 14px;
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.card .centre{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 0px 20px;
+}
+.centre h3{
+  font-size: 18px;
+}
+.centre h3 span{
+  font-size: 10px;
+  font-weight: 500;
+  color: rgb(72, 72, 72);
+}
+.centre h2{
+  font-size: 20px;
+}
+.centre .tag{
+  display: flex;
+  gap: 10px;
+}
+.centre .tag h5{
+  border: none;
+  border-radius: 7px;
+  padding: 3px 6px;
+  font-size: 12px;
+  font-weight: 600;
+  background-color: rgba(128, 128, 128, 0.237);
+}
+
+.card .bottom{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px 10px 20px;
+  margin: 10px;
+  border-top: 2px solid rgba(128, 128, 128, 0.529);
+}
+.bottom div{
+  font-size: 14px;
+}
+.bottom button{
+  padding: 0px 10px;
+  background-color: black;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 12px;
+  column-width: 600;
+}
+
+
