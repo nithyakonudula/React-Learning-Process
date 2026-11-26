@@ -1,0 +1,23 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: aqua;
+    height: 200px;
+    padding: 20px;
+}
+nav ul{
+    display: flex;
+    gap: 50px;
+    background-color: cadetblue;
+    padding: 20px;
+}
+nav ul li {
+    list-style: none;
+    background-color: rgb(42, 99, 165);
+}
+
+.btn {
+    background-color: chartreuse;
+    padding: 20px;
+}

@@ -1,0 +1,17 @@
+#page {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 400px;
+}
+
+button,
+input{
+    padding: 20px;
+}
+
+#box{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(196, 36, 36);
+}
